@@ -8,7 +8,64 @@
 <body>
     <header>
         <h1>Como Você Cuida do Seu Corpo? Esporte e Nutrição</h1>
-        <h2></h2>
+        <h2>Responda o Formulário abaixo</h2>
     </header>
+    
+    <main>
+        <form >
+            <fieldset>
+                <legend>Informacoes pessoais</legend>
+
+                <div>
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" placeholder="Digite seu nome..." id="nome" required minlength="6" maxlength="20">
+                </div>
+
+                <div>
+                    <label for="CPF">CPF:</label>
+                    <input type="number" placeholder="Digite seu CPF..." id="CPF" required min="10000000000">
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="Digite seu E-mail..." id="email" required>
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" placeholder="Digite uma senha..." id="senha">
+                </div>
+
+                <div>
+                    <label for="foto">Foto de Perfil:</label>
+                    <input type="file"  id="foto" accept=".jpg,.png,.jpeg">
+                </div>
+
+                <div>
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" id="data" max="2007-10-22">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gostos Pessoais:</legend>
+
+                <div>
+                    <label for="cor">Cor preferida:</label>
+                    <input type="color" id="cor">
+                </div>
+                <div>
+                <h2>Escolha seus estilos musicais preferidos:</h2>
+                </div>
+                <div>
+                    <input type="checkbox" id="funk">
+                    <label for="">funk</label>
+                </div>
+                
+            </fieldset>
+
+            <button>Enviar</button>
+        </form>
+    </main>
 </body>
 </html>
