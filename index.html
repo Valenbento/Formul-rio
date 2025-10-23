@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,14 +54,63 @@
                     <label for="cor">Cor preferida:</label>
                     <input type="color" id="cor">
                 </div>
-                <div>
+                <div class="checkbox-container">
                 <h2>Escolha seus estilos musicais preferidos:</h2>
-                </div>
+                
                 <div>
                     <input type="checkbox" id="funk">
-                    <label for="">funk</label>
+                    <label for="funk">funk</label>
                 </div>
-                
+                <div>
+                    <input type="checkbox" id="Sertanejo">
+                    <label for="Sertanejo">Sertanejo</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Rock">
+                    <label for="Rock">Rock</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Jazz">
+                    <label for="Jazz">Jazz</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Outros">
+                    <label for="Outros">Outros</label>
+                </div>
+                </div>
+
+                <div class="radio-container">
+                    <h2>Você prefere doce, salgado ou ambos?</h2>
+
+                    <div>
+                        <input type="radio" id="doce" name="gosto">
+                        <label for="doce">Doce</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="salgado"name="gosto">
+                        <label for="salgado">Salgado</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ambos"name="gosto">
+                        <label for="ambos">Ambos</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="tamanho">Selecione seu tamanho de camiseta:</label>
+                    <select name="tamanho" id="tamanho"></select>
+                   <option value="PP">PP</option>
+                   <option value="P">P</option>
+                   <option value="M">M</option>
+                   <option value="G">G</option>
+                   <option value="GG">GG</option>
+                   <option value="XGG">XGG</option>
+                   <option value="EXG">EXG</option>
+                </div>
+
+                <div>
+                    <label for="descricao">Faca uma breve descricao sobre Você:</label>
+                <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Digite aqui a descricao..."></textarea>
+                </div>
             </fieldset>
 
             <button>Enviar</button>
