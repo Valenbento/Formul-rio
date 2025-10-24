@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">">
     <title>Formulário de Cadastro</title>
 </head>
 <body>
-    <header>
-        <h1>Como Você Cuida do Seu Corpo? Esporte e Nutrição</h1>
-        <h2>Responda o Formulário abaixo</h2>
+    <div id="page">
+        <header>
+        <h1>Formulário de Cadastro</h1>
     </header>
     
     <main>
@@ -97,14 +101,16 @@
                 </div>
                 <div>
                     <label for="tamanho">Selecione seu tamanho de camiseta:</label>
-                    <select name="tamanho" id="tamanho"></select>
-                   <option value="PP">PP</option>
+                    <select name="tamanho" id="tamanho">
+                         <option value="PP">PP</option>
                    <option value="P">P</option>
                    <option value="M">M</option>
                    <option value="G">G</option>
                    <option value="GG">GG</option>
                    <option value="XGG">XGG</option>
                    <option value="EXG">EXG</option>
+                    </select>
+                  
                 </div>
 
                 <div>
@@ -116,5 +122,6 @@
             <button>Enviar</button>
         </form>
     </main>
+    </div>
 </body>
 </html>
