@@ -105,30 +105,29 @@ h1{
 
 
 button {
-  background-color: #007bff;      /* Cor principal */
-  color: #fff;                    /* Cor do texto */
-  border: none;                   /* Remove borda padrão */
-  padding: 1rem 2rem;             /* Espaçamento interno */
-  font-size: 1.6rem;              /* Tamanho da fonte */
-  font-weight: 600;               /* Peso da fonte */
-  border-radius: 0.8rem;          /* Bordas arredondadas */
-  cursor: pointer;                /* Mãozinha ao passar */
-  transition: all 0.3s ease;      /* Animação suave */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
-}
+  background-color: #007bff;      
+  color: #fff;                  
+  border: none;                  
+  padding: 1rem 2rem;            
+  font-size: 1.6rem;              
+  font-weight: 600;               
+  border-radius: 0.8rem;         
+  cursor: pointer;               
+  transition: all 0.3s ease;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
 button:hover {
-  background-color: #0056b3;      /* Tom mais escuro ao passar */
-  transform: translateY(-2px);    /* Leve elevação */
+  background-color: #0056b3;     
+  transform: translateY(-2px);    
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
 button:active {
-  transform: translateY(0);       /* Volta ao clicar */
+  transform: translateY(0);       
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 button:focus {
-  outline: 2px solid #80bdff;     /* Destaque acessível */
+  outline: 2px solid #80bdff;     
   outline-offset: 2px;
 }
